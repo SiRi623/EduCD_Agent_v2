@@ -1,0 +1,58 @@
+[
+  {
+    "question_id": "Q001",
+    "content": "解方程：2x + 3 = 11。",
+    "correct_answer": "x=4",
+    "knowledge_points": ["一元一次方程", "等式性质"],
+    "difficulty": "easy"
+  },
+  {
+    "question_id": "Q002",
+    "content": "化简：3a + 2a - 5。",
+    "correct_answer": "5a-5",
+    "knowledge_points": ["代数运算"],
+    "difficulty": "easy"
+  },
+  {
+    "question_id": "Q003",
+    "content": "一个三角形底为 8 cm，高为 5 cm，求面积。",
+    "correct_answer": "20平方厘米",
+    "knowledge_points": ["三角形面积"],
+    "difficulty": "easy"
+  },
+  {
+    "question_id": "Q004",
+    "content": "解方程：x^2 - 5x + 6 = 0。",
+    "correct_answer": "x=2或x=3",
+    "knowledge_points": ["二次方程", "代数运算"],
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "Q005",
+    "content": "一次函数 y = 2x - 1 的图像经过点 (1, y)，求 y。",
+    "correct_answer": "1",
+    "knowledge_points": ["函数图像", "代数运算"],
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "Q006",
+    "content": "计算：(x^2 - 1) / (x - 1)，其中 x 不等于 1。",
+    "correct_answer": "x+1",
+    "knowledge_points": ["分式运算", "代数运算"],
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "Q007",
+    "content": "已知三角形两边相等，证明其底角相等。",
+    "correct_answer": "作顶角平分线，可证两个三角形全等，从而底角相等",
+    "knowledge_points": ["几何证明"],
+    "difficulty": "hard"
+  },
+  {
+    "question_id": "Q008",
+    "content": "若 3(x - 2) = 12，求 x。",
+    "correct_answer": "x=6",
+    "knowledge_points": ["一元一次方程", "等式性质", "代数运算"],
+    "difficulty": "easy"
+  }
+]
