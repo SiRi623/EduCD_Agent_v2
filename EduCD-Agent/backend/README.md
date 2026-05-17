@@ -45,7 +45,7 @@ set DASHSCOPE_API_KEY=你的DashScope API Key
 http://127.0.0.1:5000
 ```
 
-第一次请求学生报告、错因分析或完整分析时会调用 Qwen，可能较慢；后续同一学生请求会走内存缓存。可以访问 `/api/cache/clear` 清除缓存。
+第一次请求学生报告、错因分析或完整分析时会调用 Qwen，可能较慢；后续同一学生请求会走内存缓存，速度会变快，可以访问 `/api/cache/clear` 清除缓存。
 
 如果没有配置 `DASHSCOPE_API_KEY`，或 Qwen API 调用失败，系统会自动进入 mock 模式，接口不会因为大模型调用失败而崩溃。
 
