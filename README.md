@@ -89,7 +89,21 @@ Reflection 自检 Agent
 Flask API
     ↓
 Vue + Element Plus 前端展示
-```text
+```
 ---
 
-## 五、技术架构
+## 四、运行步骤
+进入后端目录
+cd EduCD-Agent/backend
+安装依赖
+pip install -r requirements.txt
+配置 Qwen API Key
+$env:DASHSCOPE_API_KEY="你的APIKey"
+运行后端
+python app.py
+进入前端目录
+cd EduCD-Agent/frontend
+安装依赖
+npm install
+启动前端
+npm run dev
